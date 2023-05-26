@@ -137,14 +137,14 @@ h3 {
 /* QUI ASIDE */
 aside {
   text-align: center;
-  height: 50vh;
+  height: 40vh;
 }
 
 .contenitoreAside {
   display: inline-block;
   width: 20%;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  margin-top: 5em;
+
   margin-left: 2em;
   margin-right: 2em;
   font-size: 1rem;
@@ -155,21 +155,24 @@ aside {
   width: 100%;
   height: 10em;
   background-image: url("../images/foto1.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .immagineAside2 {
   width: 100%;
   height: 10em;
   background-image: url("../images/foto2.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat;
 }
 .immagineAside3 {
   width: 100%;
   height: 10em;
   background-image: url("../images/foto3.jpg");
-  background-size: contain;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
