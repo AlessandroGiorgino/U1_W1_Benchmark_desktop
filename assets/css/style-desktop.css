@@ -73,6 +73,9 @@ header {
   border-radius: 0.3em;
   color: white;
 }
+#corso button:hover {
+  cursor: pointer;
+}
 
 /* QUI ARTICLE TONDA */
 #tonda {
