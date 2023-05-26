@@ -137,22 +137,40 @@ h3 {
 /* QUI ASIDE */
 aside {
   text-align: center;
-  height: 60vh;
+  height: 50vh;
 }
 
 .contenitoreAside {
   display: inline-block;
   width: 20%;
   margin-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
   margin-left: 2em;
   margin-right: 2em;
   font-size: 1rem;
   border: solid 0.3px lightgray;
 }
 
-.immagineAside {
+.immagineAside1 {
   width: 100%;
+  height: 10em;
+  background-image: url("../images/foto1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.immagineAside2 {
+  width: 100%;
+  height: 10em;
+  background-image: url("../images/foto2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.immagineAside3 {
+  width: 100%;
+  height: 10em;
+  background-image: url("../images/foto3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .contenitoreAside h4 {
