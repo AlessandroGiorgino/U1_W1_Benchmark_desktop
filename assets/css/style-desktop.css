@@ -1,0 +1,189 @@
+/* Your styles here */
+/* QUI IMPORT DEI FONT */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+
+/* QUI STYLE DI HEADING ETC */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #25a2c3;
+}
+
+body {
+  height: 100vh;
+  min-width: 501px;
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+
+/* QUI HEADER */
+header {
+  background-color: black;
+  height: 10vh;
+}
+.logo {
+  width: 10%;
+  padding: 1.5em;
+}
+
+/* QUI div mega */
+#mega {
+  width: 100%;
+}
+
+/* QUI MAIN */
+
+/* QUI SECTION CORSO */
+
+#corso {
+  height: 50vh;
+  background-image: url("../images/banner.jpg");
+  background-position: bottom 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-bottom: 3em;
+}
+#corso h1 {
+  padding-top: 4em;
+  padding-bottom: 1.5em;
+  font-size: 2.3rem;
+  line-height: 1.1;
+}
+#corso p {
+  margin: 0em 1em 2em 1em;
+}
+#corso button {
+  margin-top: 1.5em;
+  height: 4em;
+  width: 12em;
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3em;
+  color: white;
+}
+
+/* QUI ARTICLE TONDA */
+#tonda {
+  text-align: center;
+}
+#tonda h2,
+h3,
+p {
+  text-align: center;
+  margin: 1em 1em 1em 1em;
+}
+
+.scritte {
+  width: 45%;
+  margin-left: 2em;
+}
+.scritte p,
+h3 {
+  text-align: start;
+}
+
+.computer {
+  display: inline-block;
+  height: 20em;
+  width: 20em;
+  margin: 3.5em 2em 3em 1em;
+  background-image: url("../images/notebook.jpg");
+  background-position: center;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.scritte {
+  display: inline-block;
+}
+
+.rosso {
+  background-color: #e22d0e;
+  height: 13em;
+  padding: 0.3em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+.rosso h2 {
+  color: white;
+  font-size: 1.9rem;
+}
+.rosso p {
+  color: white;
+  font-size: large;
+}
+.rosso span {
+  font-size: small;
+}
+
+.rosso p:first-of-type {
+  font-style: italic;
+  color: white;
+  font-size: medium;
+}
+
+/* QUI ASIDE */
+aside {
+  text-align: center;
+  height: 60vh;
+}
+
+.contenitoreAside {
+  display: inline-block;
+  width: 20%;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 1rem;
+  border: solid 0.3px lightgray;
+}
+
+.immagineAside {
+  width: 100%;
+}
+
+.contenitoreAside h4 {
+  margin: 1em 0em 1.5em 0em;
+}
+
+/* QUI FOOTER */
+footer {
+  background-color: #25a2c3;
+  text-align: center;
+  padding: 3em;
+  color: #c8e7f0;
+  list-style-type: none;
+}
+footer h2 {
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 0.5em;
+}
+footer a,
+li {
+  color: white;
+  list-style-type: none;
+}
+footer p {
+  display: inline;
+  margin-left: 0;
+  font-size: 1rem;
+}
+footer hr {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  width: 60%;
+}
